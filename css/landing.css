@@ -8,7 +8,7 @@
   font-size: 72px;
 }
 #headshot img{
-  /*float:left;*/
+  float:left;
   width: 350px;
   height: 350px;
   border-radius: 100px;
@@ -26,8 +26,8 @@
 .hobbies{
   border: solid 1px;
   margin-top: 20px;
-  /*float:right;*/
-  background-color: #00c241
+  float:right;
+  background-color: #03ff5f
 }
 .hobbies ul{
   list-style-type: none;
@@ -35,7 +35,10 @@
   padding: 15px;
   padding-bottom: 50px;
 }
-.hobbies ul a:visited{
+.hobbies li{
+  margin: 10px 0;
+}
+.hobbies li a:visited{
   color: #c21000;
 }
 .hobbies h1{
@@ -43,14 +46,23 @@
 }
 .projects{
   border: solid 1px;
-  background-color: #c237c4;
+  background-color: #f269eb;
   margin-top: 20px;
-}
-.projects p{
-  text-align: center;
-  font-size: 18px;
-  padding: 20px;
 }
 .projects h1{
   text-align: center;
+}
+.projects p{
+  text-align: center;
+  font-size: 16px;
+  padding: 20px;
+}
+.projects ol{
+  font-size: 18px;
+}
+.projects a:link{
+  color: #f7f703;
+}
+.projects li a:visited{
+  color: #f7f703;
 }
