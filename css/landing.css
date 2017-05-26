@@ -1,0 +1,32 @@
+.bootstrap{
+  background-color: red;
+  text-align: center;
+}
+#headshot img{
+  width: 300px;
+  float:left;
+  margin-top: 15px;
+  border: inset 3px;
+}
+.intro{
+  text-align: center;
+  border: solid 1px;
+  background-color: #99ccff
+}
+.intro p{
+  font-size: 18px;
+}
+.hobbies{
+  border: solid 1px;
+  margin-top: 15px;
+  float:right;
+  background-color: #ff6666
+}
+.hobbies ul{
+  list-style-type: none;
+  font-size: 18px;
+  padding: 15px;
+}
+.hobbies h1{
+  text-align: center;
+}
