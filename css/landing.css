@@ -1,6 +1,11 @@
-.bootstrap{
-  background-color: red;
+.jumbotron{
   text-align: center;
+  background-color: #404040;
+}
+.jumbotron h1{
+  color: white;
+  font-family: serif;
+  font-size: 72px;
 }
 #headshot img{
   width: 300px;
@@ -26,6 +31,9 @@
   list-style-type: none;
   font-size: 18px;
   padding: 15px;
+}
+.hobbies ul a:visited{
+  color: #66ff66;
 }
 .hobbies h1{
   text-align: center;
